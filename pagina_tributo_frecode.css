@@ -1,16 +1,19 @@
 html{
     font-size: 10px;
 }
+head{
+    font-size: 18px;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     line-height: 1.5;
     margin: auto;
-    background-color: dimgray;
+    background-color: whitesmoke;
     text-align: center;
 }
 .style{
-    background-color: dimgray;
+    background-color: rgb(218, 218, 218);
     height: auto;
     width: auto;
     border-radius: 10px;
@@ -34,19 +37,26 @@ li {
 #main{
   
     text-align: center;
-    background-color: rgb(211, 211, 211);
+    background-color: transparent;
     margin: 30px 10px 30px 10px;
     padding: 15px;
+    font-family: 'Raleway', sans-serif;
 }
-#image{
-    height: 500px;
-    width: 300px; 
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    border-radius: 25px;  
 }
 blockquote{
     font-size: 12px;
 }
 p{
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 h4{
     font-size: 12px;
@@ -61,8 +71,6 @@ a{
 }
 a:visited{
     color:lightslategray
-    font-size: 15px;
-    text-align: justify;
 }
 img {
   max-width: 100%;
@@ -72,7 +80,27 @@ img {
 }
 
 #img-div {
-  background: whitesmoke;
+  background: rgb(249, 249, 249);
   padding: 10px;
   margin: 0;
+  opacity: 80%;
+}
+
+h1{
+    font-family: 'Caveat', cursive;
+    background-color: rgb(189, 189, 189);
+    margin: auto 420px auto 420px;
+    border-radius: 25px;
+}
+
+#title{
+    font-size: 68px;
+}
+#tribute-info{
+    background-color: rgb(88, 88, 88);
+    margin: auto 320px auto 320px;
+    color:whitesmoke;
+    border-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    font-size: 14px;
 }
