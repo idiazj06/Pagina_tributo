@@ -1,3 +1,14 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: auto;
+    background-color: dimgray;
+    text-align: center;
+}
 .style{
     background-color: dimgray;
     height: auto;
@@ -5,16 +16,21 @@
     border-radius: 10px;
 }
 .timeline ul li{
-  text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  
+  text-align: justify;
+  margin-left: 30%;
+  margin-right: 15%;  
+}
+ul {
+    max-width: 550px;
+    margin: 0 auto 40px auto;
+    text-align: justify;
+    line-height: 1.5;
 }
 
-html{
-    font-size: 16px;
-} 
-  
+li {
+    margin: 16px 0;
+}
+
 #main{
   
     text-align: center;
@@ -24,6 +40,39 @@ html{
 }
 #image{
     height: 500px;
-    width: 300px;
- 
+    width: 300px; 
+}
+blockquote{
+    font-size: 12px;
+}
+p{
+    font-size: 14px;
+}
+h4{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+a{
+    color: blue;
+    font-size: 15px;
+    text-align: justify;
+}
+a:visited{
+    color:lightslategray
+    font-size: 15px;
+    text-align: justify;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: whitesmoke;
+  padding: 10px;
+  margin: 0;
 }
