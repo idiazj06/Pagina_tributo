@@ -12,45 +12,32 @@ body{
     background-color: transparent;
     text-align: center;
 }
-.style{
-    background-color: rgb(218, 218, 218);
-    height: auto;
-    width: auto;
-    border-radius: 10px;
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-.timeline ul li{
-  text-align: justify;
-  margin-left: 30%;
-  margin-right: 15%;  
-}
-ul {
-    max-width: 550px;
-    margin: 0 auto 40px auto;
+ul {   
     text-align: justify;
     line-height: 1.5;
+    padding: 20px;
 }
 
 li {
-    margin: 16px 0;
-}
-
-#main{
-  
-    text-align: center;
-    background-color: transparent;
-    margin: 30px 10px 30px 10px;
-    padding: 15px;
+    line-height: 2;
     font-family: 'Raleway', sans-serif;
 }
+
+
 #image {
     width: 100%;
     height: auto;
     max-width: 425px;
-    margin-left: auto;
-    margin-right: auto;
     display: block; 
     border-radius: 25px;  
 }
+
 blockquote{
     font-size: 12px;
 }
@@ -68,21 +55,22 @@ a{
     color: blue;
     font-size: 15px;
     text-align: justify;
+    list-style: none;
+    text-decoration: none;
 }
 a:visited{
-    color:lightslategray
+    color:rgb(0, 201, 90);
+    
 }
-img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin: 0 auto;
-}
+
 
 #img-div {
   background: rgb(249, 249, 249);
-  padding: 10px;
-  margin: 0;
+  padding:10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   opacity: 80%;
 }
 
@@ -94,7 +82,9 @@ h1{
 }
 
 #title{
-    font-size: 68px;
+    font-size: 5vw;
+    padding: 10px;
+    margin-top: 5vh;
 }
 #tribute-info{
     background-color: rgb(88, 88, 88);
@@ -103,4 +93,5 @@ h1{
     border-color: rgb(219, 219, 219);
     border-radius: 5px;
     font-size: 14px;
+    padding:20px
 }
